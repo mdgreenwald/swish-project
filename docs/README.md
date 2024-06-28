@@ -29,9 +29,17 @@ Build with cache: 0.3s
 
 ## Security Advisories
 
+Before patching/updating the Docker base image:
+
 * https://github.com/mdgreenwald/swish-project/pull/5
 
+After patching/updating the Docker base image:
 
+* https://github.com/mdgreenwald/swish-project/pull/7
+
+Additionally the security advisories can be seen in this dashboard:
+
+* https://github.com/mdgreenwald/swish-project/security/code-scanning
 
 ## References
 
