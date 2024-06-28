@@ -27,6 +27,12 @@ Build with cache: 0.3s
 
 
 
+## Security Advisories
+
+* https://github.com/mdgreenwald/swish-project/pull/5
+
+
+
 ## References
 
 * https://python-poetry.org/docs/faq#poetry-busts-my-docker-cache-because-it-requires-me-to-copy-my-source-files-in-before-installing-3rd-party-dependencies
