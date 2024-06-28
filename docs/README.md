@@ -21,9 +21,19 @@
 
 ## Docker Build
 
-Build without cache: 20.3s
+Here we compare two Dockerfiles' build times. The optimization is installing the dependencies before copying the source code. This optimization means that changes only to the source code don't require a complete rebuild of the container image. This means that there is a much faster feedback loop between changes and testing.
 
-Build with cache: 0.3s
+Build without cache and without optmization: 21.0s
+
+Build without cache with optimization: 21.2s (Slight penalty for the additional step here)
+
+Rebuild without optimization: 19.8s (Source code changes, no dependencies change)
+
+Rebuild with optmization: 1.2s (Source code changes, no dependencies change)
+
+Difference: -18.6s / 93% reduction in time to rebuild after source changes are made.
+
+This will not benefit changes to dependencies, those will still be slower.
 
 
 
