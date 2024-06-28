@@ -39,6 +39,8 @@ jobs:
           command: cves
           image: ${{ steps.meta.outputs.tags }}
           sarif-file: sarif.output.json
+          dockerhub-user: ${{ secrets.DOCKERHUB_USERNAME }}
+          dockerhub-password: ${{ secrets.DOCKERHUB_TOKEN }}
           summary: true
 
       - name: Upload SARIF result
