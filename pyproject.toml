@@ -8,7 +8,7 @@ readme = "README.md"
 packages = [{include = "swish_project"}]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.11"
 
 
 [build-system]
