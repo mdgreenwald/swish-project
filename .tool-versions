@@ -1,0 +1,7 @@
+python 3.9.0
+poetry 1.8.3
+ctlptl 0.8.29
+kind 0.23.0
+just 1.29.1
+tilt 0.33.17
+kubectl 1.30.2
