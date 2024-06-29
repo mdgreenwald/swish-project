@@ -6,7 +6,7 @@ https://github.com/mdgreenwald/swish-project/
 
 ## General questions - Docker, CVEs, CI/CD, monitoring 
 
-This section of the document is meant to address the General questions - Docker, CVEs, CI/CD, monitoring part of the questionaire.
+This section of the document is meant to address the General questions - Docker, CVEs, CI/CD, monitoring part of the questionnaire.
 
 ## Overview
 **Overview of approach:**
@@ -88,7 +88,7 @@ Once the code is merged and deployed then you will be relying on Monitoring and 
 
 ## Project
 
-This section of the document is meant to address the "Project" portion of the questionaire.
+This section of the document is meant to address the "Project" portion of the questionnaire.
 
 > 1. UI, CI/CD, workflow or other tool that will allow people to select options for:
 a. Base image 
